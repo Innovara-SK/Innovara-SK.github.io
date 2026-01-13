@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <radialGradient id="rg" cx="35%" cy="30%" r="80%">
+      <stop offset="0" stop-color="#22c55e"/>
+      <stop offset="1" stop-color="#0ea5e9"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="64" cy="64" r="52" fill="none" stroke="rgba(0,0,0,0.08)" stroke-width="10"/>
+
+  <path d="M64 22
+           C88 22 106 42 104 64
+           C102 84 82 100 62 98
+           C44 96 34 82 36 68
+           C38 54 52 46 64 50
+           C75 54 78 64 74 70
+           C70 77 60 78 56 72"
+        fill="none"
+        stroke="url(#rg)"
+        stroke-width="12"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+</svg>
