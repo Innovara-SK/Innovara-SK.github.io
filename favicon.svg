@@ -1,13 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
   <defs>
+    <!-- Warm consulting gradient: red → pink → orange -->
     <radialGradient id="rg" cx="35%" cy="30%" r="80%">
-      <stop offset="0" stop-color="#22c55e"/>
-      <stop offset="1" stop-color="#0ea5e9"/>
+      <stop offset="0%" stop-color="#ef4444"/>   <!-- red -->
+      <stop offset="55%" stop-color="#ec4899"/>  <!-- pink -->
+      <stop offset="100%" stop-color="#f97316"/> <!-- orange -->
     </radialGradient>
   </defs>
 
-  <circle cx="64" cy="64" r="52" fill="none" stroke="rgba(0,0,0,0.08)" stroke-width="10"/>
+  <!-- subtle outer ring (kept very light) -->
+  <circle
+    cx="64"
+    cy="64"
+    r="52"
+    fill="none"
+    stroke="rgba(255,255,255,0.25)"
+    stroke-width="10"/>
 
+  <!-- swirl shape (unchanged geometry, new gradient) -->
   <path d="M64 22
            C88 22 106 42 104 64
            C102 84 82 100 62 98
